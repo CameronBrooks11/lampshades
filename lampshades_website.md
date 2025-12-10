@@ -3,13 +3,14 @@
 **Published:** Jul 11, 2022  
 **Tags:** 3D Printing, CAD, Lampshades, OpenSCAD, Selling, Learning
 
-![A lamp](https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/343826d1-dd50-49c3-89e5-2649972f082d.jpg)
+<img src="https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/343826d1-dd50-49c3-89e5-2649972f082d.jpg" alt="A lamp" width="800" style="max-width:100%;height:auto;" />
 
 A little while ago I went on a bit of a lampshade buzz. I designed and 3D printed a bunch of them and had a lot of fun. Then I tried to sell some lamps, which didn’t go as well as I wanted, but was a good learning experience. In this post, I will go over some of the key things I learnt designing, printing and trying to sell my lamps.
 
 Also, if you want to print any of my designs yourself, you can! All the models are on [Printables](https://www.printables.com/social/308094-mjseabright/collections/207685) and the source files are on [GitHub](https://github.com/mjseabright/lampshades).
 
-![A lamp by my bed](https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/73dc8407-3e4c-4dad-be51-f9cbe1870154.jpg)  
+<img src="https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/73dc8407-3e4c-4dad-be51-f9cbe1870154.jpg" alt="A lamp by my bed" width="800" style="max-width:100%;height:auto;" />
+
 I set up all the lamps beside my bed for marketing shots.
 
 ## Selling Things Online Can Be Hard
@@ -28,7 +29,8 @@ Overall, I lost money as it cost to have a stall there. But being able to get th
 
 I’m really glad I went to the market. It was fun and I made my first sales to people I don’t know.
 
-![Me at the markets](https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/1fc82ee6-09e2-47f1-b11c-f42e480b8c3c.jpg)  
+<img src="https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/1fc82ee6-09e2-47f1-b11c-f42e480b8c3c.jpg" alt="Me at the markets" width="800" style="max-width:100%;height:auto;" />
+
 Me at the markets. I even wore a pineapple shirt to go with one of my designs.
 
 ## PLA Doesn’t Like Heat
@@ -37,7 +39,7 @@ I’ve previously had a part printed from PLA warp from being in the sun. So I d
 
 You can see for yourself how that went below. This is a shame as I didn’t want to sell lamps that would turn to a puddle if left beside a window on a hot day, so I had to print in PETG. However, there is a far more limited range of filament colours available in PETG and the prints don’t look quite as nice.
 
-![PLA lampshade collapsed](https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/85e2f51b-f648-4f28-9e8a-8e70ecaecd6c.jpg)
+<img src="https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/85e2f51b-f648-4f28-9e8a-8e70ecaecd6c.jpg" alt="PLA lampshade collapsed" width="800" style="max-width:100%;height:auto;" />
 
 ## Experiment More With Print Settings
 
@@ -47,7 +49,8 @@ I was much happier being able to print a handful of new designs in a day rather 
 
 All of my designs are printed in vase mode (single wall), so I also experimented with the extrusion width to see what looked best and made for a sturdy enough lampshade. This is something I’ve never tried before, but I really liked the result and will keep in mind for future models.
 
-![One of my favorite designs](https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/8df9bd71-0872-4c62-9fa0-7c582b3242d5.jpg)  
+<img src="https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/8df9bd71-0872-4c62-9fa0-7c582b3242d5.jpg" alt="One of my favorite designs" width="800" style="max-width:100%;height:auto;" />
+
 This is one of my favorite designs.
 
 ## OpenSCAD Is Really Cool, And Can Be Quick
@@ -67,5 +70,6 @@ The thing I enjoyed most about the whole process was always the moment of turnin
 
 I think I’m initially biased towards seeing the flaws in the things I create and that just leads to unhappiness. I love the lamps I’ve designed and I’m happy every time I turn one on. And that’s all I really want from any project I take on.
 
-![Another cool lamp](https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/d33b56ed-9e58-4f8e-96c4-633b387bc61f.jpg)  
+<img src="https://cdn.blot.im/blog_cb8d6372d4d34816883d8dfb5037f244/_image_cache/d33b56ed-9e58-4f8e-96c4-633b387bc61f.jpg" alt="Another cool lamp" width="800" style="max-width:100%;height:auto;" />
+
 This is another one I like.

@@ -19,7 +19,7 @@ The [noise](noise/) design is different as it uses [Python](https://www.python.o
 I designed the lampshades to work with standard shade mounting systems. I've been using lamp bases that take an E14 bulb and have a ~28mm diameter male thread for the shade mounting. The [adaptor](../adaptor.scad) dimensions can be adjusted to fit larger light sockets.
 
 Here is a picture of the socket on the lamp base I have been using:
-![Lamp socket image](photos/lamp_base.jpg)
+<img src="photos/lamp_base.jpg" alt="Lamp socket image" width="800" style="max-width:100%;height:auto;" />
 
 ## Print Settings and Tips
 
@@ -33,12 +33,13 @@ All of these lampshades are designed to be printed in vase mode (single wall spi
 
 Print both the lampshade you like and the [adaptor](../adaptor.scad). I print the adaptor with normal settings (ie. not vase mode). I ususally use PETG and a 0.3mm layer height. It does require supports unfortunatly. Then glue the adaptor into the bottom of the lampshade with CA glue. Here are some pictures to show you what I mean:
 
-![Inserting the adaptor](photos/inserting_adaptor.jpg)
-![Adaptor inserted](photos/adaptor_inserted.jpg)
+<img src="photos/inserting_adaptor.jpg" alt="Inserting the adaptor" width="800" style="max-width:100%;height:auto;" />
+<img src="photos/adaptor_inserted.jpg" alt="Adaptor inserted" width="800" style="max-width:100%;height:auto;" />
 
 ## Photos
 
 See the [photos](photos/) folder for more photos of the designs.
-![A lamp](photos/rope_swirl-esun_orange-studio-above_close-dark-on.jpg)
-![Another lamp](photos/penta_spiral-esun_purple-bedroom-above-light-on.jpg)
-![Wow, another lamp](photos/octa_spiral-esun_yellow-studio-front-light-on.jpg)
+
+<img src="photos/rope_swirl-esun_orange-studio-above_close-dark-on.jpg" alt="A lamp" width="800" style="max-width:100%;height:auto;" />
+<img src="photos/penta_spiral-esun_purple-bedroom-above-light-on.jpg" alt="Another lamp" width="800" style="max-width:100%;height:auto;" />
+<img src="photos/octa_spiral-esun_yellow-studio-front-light-on.jpg" alt="Wow, another lamp" width="800" style="max-width:100%;height:auto;" />
