@@ -12,12 +12,12 @@ center_hole_diameter = 40;
 
 difference() {
     fish_tail(
-        height = height,
-        layer_height = layer_height,
-        main_diameter = main_diameter,
-        divs_per_circle = divs_per_circle,
-        circle_diameter = circle_diameter,
-        swell = swell
+        height=height,
+        layer_height=layer_height,
+        main_diameter=main_diameter,
+        divs_per_circle=divs_per_circle,
+        circle_diameter=circle_diameter,
+        swell=swell
     );
-    center_hole(height = height, diameter = center_hole_diameter);
+    center_hole(height=height, diameter=center_hole_diameter);
 }

@@ -12,12 +12,12 @@ center_hole_diameter = 40;
 
 difference() {
     golfball(
-        height = height,
-        swell = swell,
-        layer_height = layer_height,
-        main_diameter = main_diameter,
-        dimple_v_spacing = dimple_v_spacing,
-        num_dimple_per_rot = num_dimple_per_rot
+        height=height,
+        swell=swell,
+        layer_height=layer_height,
+        main_diameter=main_diameter,
+        dimple_v_spacing=dimple_v_spacing,
+        num_dimple_per_rot=num_dimple_per_rot
     );
-    center_hole(height = height, diameter = center_hole_diameter);
+    center_hole(height=height, diameter=center_hole_diameter);
 }

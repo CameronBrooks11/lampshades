@@ -7,6 +7,6 @@ main_radius = 70;
 center_hole_diameter = 40;
 
 difference() {
-    rotated_octogon(height = height, layer_height = layer_height, main_radius = main_radius);
-    center_hole(height = height, diameter = center_hole_diameter);
+    rotated_octogon(height=height, layer_height=layer_height, main_radius=main_radius);
+    center_hole(height=height, diameter=center_hole_diameter);
 }
