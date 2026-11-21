@@ -12,13 +12,13 @@ center_hole_diameter = 40;
 
 difference() {
     triple_spring(
-        height = height,
-        layer_height = layer_height,
-        main_diameter = main_diameter,
-        divs_per_circle = divs_per_circle,
-        spiral_radius = spiral_radius,
-        circle_radius = circle_radius,
-        swell = swell
+        height=height,
+        layer_height=layer_height,
+        main_diameter=main_diameter,
+        divs_per_circle=divs_per_circle,
+        spiral_radius=spiral_radius,
+        circle_radius=circle_radius,
+        swell=swell
     );
-    center_hole(height = height, diameter = center_hole_diameter);
+    center_hole(height=height, diameter=center_hole_diameter);
 }

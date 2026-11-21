@@ -1,8 +1,8 @@
-module regular_polygon(order = 5, r=1){
-     angles=[ for (i = [0:order-1]) i*(360/order) ];
-     coords=[ for (th=angles) [r*cos(th), r*sin(th)] ];
-     polygon(coords);
- }
+module regular_polygon(order = 5, r = 1) {
+    angles = [for (i = [0:order - 1]) i * (360 / order)];
+    coords = [for (th = angles) [r * cos(th), r * sin(th)]];
+    polygon(coords);
+}
 
 function regular_polygon_side_length(order = 3, r = 1) = 2 * r * sin(360 / (2 * order));
 function regular_polygon_radius_from_side_length(order = 3, side_length = 10) = side_length / (2 * sin(360 / (2 * order)));
@@ -16,7 +16,7 @@ module chamfered_cylinder(h, d, chamfer, fn = 64, chamfer_top = true, chamfer_bo
     r = d / 2;
     bottom_pts = chamfer_bottom ? [[0, 0], [r - chamfer, 0], [r, chamfer]] : [[0, 0], [r, 0]];
     top_pts = chamfer_top ? [[r, h - chamfer], [r - chamfer, h], [0, h]] : [[r, h], [0, h]];
-    rotate_extrude($fn = fn) polygon(points = concat(bottom_pts, top_pts));
+    rotate_extrude($fn=fn) polygon(points=concat(bottom_pts, top_pts));
 }
 
 // Cutter for a hole with a countersink chamfer at the z=0 and/or z=h faces.
@@ -30,12 +30,12 @@ module chamfered_hole(h, d, chamfer, fn = 32, chamfer_top = true, chamfer_bottom
     z0 = chamfer_bottom ? -eps : 0;
     z1 = chamfer_top ? h + eps : h;
     union() {
-        translate([0, 0, z0]) cylinder(h = z1 - z0, d = d, $fn = fn);
+        translate([0, 0, z0]) cylinder(h=z1 - z0, d=d, $fn=fn);
         if (chamfer_bottom) {
-            cylinder(h = chamfer, d1 = d + 2 * chamfer, d2 = d, $fn = fn);
+            cylinder(h=chamfer, d1=d + 2 * chamfer, d2=d, $fn=fn);
         }
         if (chamfer_top) {
-            translate([0, 0, h - chamfer]) cylinder(h = chamfer, d1 = d, d2 = d + 2 * chamfer, $fn = fn);
+            translate([0, 0, h - chamfer]) cylinder(h=chamfer, d1=d, d2=d + 2 * chamfer, $fn=fn);
         }
     }
 }
@@ -48,13 +48,13 @@ module chamfered_hole(h, d, chamfer, fn = 32, chamfer_top = true, chamfer_bottom
 module chamfered_extrude(h, chamfer) {
     union() {
         hull() {
-            linear_extrude(0.01) offset(delta = -chamfer) children();
+            linear_extrude(0.01) offset(delta=-chamfer) children();
             translate([0, 0, chamfer]) linear_extrude(0.01) children();
         }
         translate([0, 0, chamfer]) linear_extrude(h - 2 * chamfer) children();
         hull() {
             translate([0, 0, h - chamfer]) linear_extrude(0.01) children();
-            translate([0, 0, h - 0.01]) linear_extrude(0.01) offset(delta = -chamfer) children();
+            translate([0, 0, h - 0.01]) linear_extrude(0.01) offset(delta=-chamfer) children();
         }
     }
 }

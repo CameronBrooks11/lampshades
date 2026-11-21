@@ -11,18 +11,17 @@ blade_swell = 15;
 blade_rotations = 0.75;
 center_hole_diameter = 40; // diameter of the hole through the center of the shade, for mounting on the adaptor (mm)
 
-
 difference() {
     turbine(
-        height = height,
-        layer_height = layer_height,
-        main_diameter = main_diameter,
-        divs_per_circle = divs_per_circle,
-        blade_sides = blade_sides,
-        circle_radius = circle_radius,
-        blade_swell = blade_swell,
-        blade_rotations = blade_rotations
+        height=height,
+        layer_height=layer_height,
+        main_diameter=main_diameter,
+        divs_per_circle=divs_per_circle,
+        blade_sides=blade_sides,
+        circle_radius=circle_radius,
+        blade_swell=blade_swell,
+        blade_rotations=blade_rotations
     );
 
-    center_hole(height = height, diameter = center_hole_diameter);
+    center_hole(height=height, diameter=center_hole_diameter);
 }
